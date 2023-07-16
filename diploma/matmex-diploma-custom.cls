@@ -4,7 +4,8 @@
 
 \usepackage{amsmath}
 \DeclareMathOperator*{\argmax}{argmax}
-
+\usepackage{textcomp}
+\usepackage{pdfpages}
 % Если используется опция 14pt то нужно несколько хаков
 \DeclareOption{14pt}{
   \def\ignore#1{}
@@ -214,7 +215,7 @@
     Научный руководитель:\\
     \my@title@supervisorPosition@ru\ \my@title@supervisor@ru
     }
-    {\normalsize \raggedleft 
+    {\large \raggedleft 
     \vskip 5em
     Научный руководитель:\\
     \my@title@supervisorPosition@ru\ \my@title@supervisor@ru\sigspace
@@ -269,7 +270,7 @@
     Scientific supervisor:\\
     \my@title@supervisorPosition@en\ \my@title@supervisor@en
     }
-    {\normalsize \raggedleft 
+    {\large \raggedleft 
     \vskip 5em
     Scientific supervisor:\\
     \my@title@supervisorPosition@en\ \my@title@supervisor@en\sigspace
